@@ -1,0 +1,132 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color:rgb(255, 255, 255);
+}
+.container{
+  padding: 10px;
+
+  max-width: 700px;
+  margin: 50px auto;
+}
+.btn{
+  border: none;
+  padding: 7px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.btn-add{
+  background: rgb(29, 3, 120);
+  color: aliceblue;
+  cursor: pointer;
+
+}
+
+.addContainer{
+  position: absolute;
+  background-color: rgb(0,0,0,0.1);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.addContainer form{
+  width: 450px;
+  background-color: rgb(165, 165, 222);
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0 , 0, 0.2);
+  border-radius: 5px;
+}
+
+.addContainer form label{
+  font-size: 18px;
+ 
+}
+.addContainer form input{
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+.addContainer form button{
+  background-color: blueviolet;
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+
+.addContainer form .close-btn{
+  margin-left: auto;
+  font-size: 25px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+
+
+
+}
+
+.tableContainer{
+  margin-top: 40px;
+  max-width: fit-content;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0 , 0, 0.2);
+  
+}
+
+.tableContainer table{
+  border: 1px;
+  max-width: 700px;
+  border: 1px solid rgb(9, 9, 9);
+  
+  max-width: 700px;
+ 
+}
+.tableContainer table thead tr th{
+ background-color: rgb(228, 248, 176);
+ border-radius: 5px;
+ padding: 11px;
+ max-width: 700px;
+}
+
+
+
+
+.tableContainer table tbody tr td{
+  min-width: 200px;
+  background-color: rgb(236, 241, 247);
+  max-width: 700px;
+  padding: 5px;
+  text-align: center;
+}
+.btn-edit,
+.btn-delete{
+  font-size: 16px;
+  padding: 4px;
+  margin: 2px 6px;
+ 
+}
+
+.btn-edit{
+  background-color: yellow;
+}
+
+.btn-delete{
+  background-color: red;
+  color: white;
+}
